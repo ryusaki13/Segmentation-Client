@@ -1,21 +1,24 @@
-Dans un monde fortement concurrentiel les entreprises se font sans cesse la guerre commerciale afin d'augmenter leur part de marchés, chiffre d'aafaire et marge. 
-cela toute fois cela passe par des ofrre commercial et campaghne marketing fortement ciblé et adapté à chaque groupe de clients en fonction de leurs caractéristiques communes et intrèseques.
-D'où la néessité d'établir des groupes entre les clients.
+# Segmentation Client
 
-Ce projet vise à mettre en place en segmentation client sur des donneés d'une entreprise de retail entre 2010 et 2012
+Dans un environnement fortement concurrentiel, les entreprises cherchent constamment à augmenter leur part de marché, leur chiffre d'affaires et leur marge. Cela passe par des offres commerciales et des campagnes marketing ciblées, adaptées à chaque groupe de clients en fonction de leurs caractéristiques communes et intrinsèques.  
 
-Outils et Méthode : 
+Ainsi, il est essentiel de segmenter les clients pour mieux comprendre leurs comportements et optimiser les actions marketing.  
 
-- Data preprocessing
-- Analyse RFM(récence, Fréquence, monétaire)
-- Analyse en Composante Princioale ACP
-- Classification non supervisé : K-means
-- Création et export de pipeline
+Ce projet vise à réaliser une **segmentation client** sur les données d'une entreprise de retail entre 2010 et 2012.
 
-## Resultat
-| Cluster                             | Description du segment                                                                                       | Actions marketing / commerciales                                                                                                  |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Cluster 0 : Inactifs                | Clients qui n'ont pas acheté depuis longtemps ; faible fréquence et faible montant dépensé                   | Campagne de réactivation ; Relance personnalisée                                                                                  |
-| Cluster 1 : Actifs de classe moyenne| Meilleurs clients : clients depuis longtemps ; dépensent beaucoup et achètent très fréquemment              | Programme premium ; invitations à des ventes privées  <br> Fidélisation renforcée <br> Service client dédié                      |
-| Cluster 2 : VIP & Champions         | Achat régulier et montant moyen ; fréquence et récence correctes mais possibilité de montée en gamme         | Cross-selling / Up-selling ; Offre fidélité graduée ; suggestions de produits complémentaires ou premium                         |
-| Cluster 3 : Anciens peu engagés     | Clients qui ont acheté très récemment ; faible fréquence et montant modeste ; reviennent après une longue pause | Programme de parrainage ; Incitation à la répétition ; Feedback récompensé (analyse de la satisfaction)                         |
+## Outils et Méthodologie
+
+- Prétraitement des données (Data preprocessing)  
+- Analyse RFM (Récence, Fréquence, Montant)  
+- Analyse en Composantes Principales (ACP)  
+- Classification non supervisée : K-means  
+- Création et export de pipeline pour réutilisation  
+
+## Résultats
+
+| Cluster                             | Description du segment                                                                                       |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Cluster 0 : Inactifs                | Clients qui n'ont pas acheté depuis longtemps ; faible fréquence et faible montant dépensé                   |
+| Cluster 1 : Actifs de classe moyenne| Clients fidèles depuis longtemps ; dépensent beaucoup et achètent très fréquemment                           |
+| Cluster 2 : VIP & Champions         | Achat régulier et montant moyen ; fréquence et récence correctes ; possibilité de montée en gamme           |
+| Cluster 3 : Anciens peu engagés     | Clients qui ont acheté très récemment ; faible fréquence et montant modeste ; reviennent après une longue pause |
